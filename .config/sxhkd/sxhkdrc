@@ -1,0 +1,45 @@
+## volume controls 
+XF86AudioRaiseVolume
+    	pactl set-sink-volume 0 +5%
+XF86AudioLowerVolume
+    	pactl set-sink-volume 0 -5%
+XF86AudioMute
+    	pactl set-sink-mute 0 toggle
+XF86AudioPlay
+	playerctl play-pause
+XF86AudioNext
+	playerctl next
+XF86AudioPrev
+	playerctl previous
+	
+## Brightness 
+XF86MonBrightnessDown
+	xbacklight -dec 1
+XF86MonBrightnessUp
+	xbacklight -inc 1 
+
+super + f
+	pcmanfm
+super + w
+	networkmanager_dmenu
+super + x
+	slock
+super + v
+	mpv $(xclip -o)
+super + b 
+	$BROWSER
+super + c
+	clipmenu
+super + s 
+	dmenu-power.sh
+super + q
+	dmenu-kill.sh
+shift + m 
+	dmenu-mount.sh
+shift + w
+	dmenu-weather.sh
+super + shift + s
+	flameshot gui
+
+
+
