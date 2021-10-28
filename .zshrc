@@ -31,10 +31,6 @@ alias anime='ani-cli'
 alias yt-480='youtube-dl -f "bestvideo[height<=480][ext=mp4]+bestaudio[ext=m4a]" --no-playlist '
 alias run='g++ -Wall -Wextra -Wshadow -Wfloat-equal -Wconversion -fsanitize=undefined -fsanitize=address -O2 main.cpp -o main && ./main < input.txt > output.txt'
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
-alias zathura='devour zathura'
-alias okular='devour okular'
-alias gedit='devour gedit'
-alias pavucontrol='devour pavucontrol'
 alias ..='cd ..'
 
 export PATH=$PATH:~/scripts/
