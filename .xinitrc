@@ -47,6 +47,7 @@ numlockx
 picom & 
 sxhkd &
 clipmenud &
+xautolock -time 5 -locker slock -detectsleep &
 /home/pseudomar/scripts/bar.sh & 
 
 ## my touchpad options
