@@ -9,12 +9,14 @@ DIR=$(dirname "$LOC")
 . "$DIR/volume.sh"
 . "$DIR/date_.sh"
 . "$DIR/internetspeed.sh"
+. "$DIR/cpu.sh"
 
 while true
 do
     upperbar=""
     upperbar="$upperbar$(internetspeed)"
     upperbar="$upperbar$(memory)"
+    upperbar="$upperbar$(cpu)"
     upperbar="$upperbar$(battery)"
     upperbar="$upperbar$(backlight)"
     upperbar="$upperbar$(volume)"

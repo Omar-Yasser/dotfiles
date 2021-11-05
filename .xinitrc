@@ -47,13 +47,12 @@ numlockx
 picom & 
 sxhkd &
 clipmenud &
-xautolock -time 5 -locker slock -detectsleep &
+xautolock -time 15 -locker slock -detectsleep -corners 000- &
 /home/pseudomar/scripts/bar.sh & 
 
 ## my touchpad options
 # tapping enabled
 xinput set-prop 10 323 1 
-xinput set-prop 10 324 1 
 # natural scrolling enabled
 xinput set-prop 10 331 1 
 

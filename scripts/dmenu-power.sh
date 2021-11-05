@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 selected=$(echo -e "Shutdown\nReboot\nLock" | dmenu -l 3 -p "Options")
 

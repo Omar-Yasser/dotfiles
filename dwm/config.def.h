@@ -12,7 +12,7 @@ static const char col_gray1[]       = "#000000";  /*background color*/
 static const char col_gray2[]       = "#000000";  /*unactive window border color*/
 static const char col_gray3[]       = "#bbbbbb";  /*font color*/
 static const char col_gray4[]       = "#eeeeee";  /*current tag and current window font color*/
-static const char col_cyan[]        = "#005577";  /*top bar second color and active window border color*/
+static const char col_cyan[]        = "#000000";  /*top bar second color and active window border color*/
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -29,8 +29,8 @@ static const Rule rules[] = {
 	 */
 	/* class     instance  title           tags mask  isfloating  isterminal  noswallow  monitor */
 	{ "Gimp",    NULL,     NULL,           0,         1,          0,           0,        -1 },
-	{ "Firefox", NULL,     NULL,           1 << 8,    0,          0,          -1,        -1 },
-	{ "st-256color",      NULL,     NULL,           0,         0,          1,           0,        -1 },
+	{ "Pcmanfm", NULL,     NULL,           0,    	  0,          1,           0,        -1 },
+	{ "st-256color", NULL, NULL,           0,         0,          1,           0,        -1 },
 	{ NULL,      NULL,     "Event Tester", 0,         0,          0,           1,        -1 }, /* xev */
 };
 
