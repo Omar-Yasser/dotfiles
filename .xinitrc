@@ -43,7 +43,6 @@ setxkbmap -option 'grp:alt_shift_toggle' -layout us,ara
 xrandr --output HDMI-1 --mode 1920x1080 
 systemctl --user import-environment DISPLAY  
 nitrogen --restore 
-numlockx 
 picom & 
 sxhkd &
 clipmenud &
@@ -52,8 +51,8 @@ xautolock -time 15 -locker slock -detectsleep -corners 000- &
 
 ## my touchpad options
 # tapping enabled
-xinput set-prop 10 323 1 
+xinput set-prop 10 324 1 
 # natural scrolling enabled
-xinput set-prop 10 331 1 
+xinput set-prop 10 332 1 
 
 exec dwm
