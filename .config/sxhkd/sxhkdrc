@@ -38,6 +38,8 @@ shift + m
 	dmenu-mount.sh
 shift + w
 	dmenu-weather.sh
+shift + p 
+        pavucontrol
 super + shift + s
 	flameshot gui
 

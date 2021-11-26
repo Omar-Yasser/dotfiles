@@ -47,7 +47,7 @@ picom &
 sxhkd &
 clipmenud &
 xautolock -time 15 -locker slock -detectsleep -corners 000- &
-/home/pseudomar/scripts/bar.sh & 
+slstatus &
 
 ## my touchpad options
 # tapping enabled

@@ -7,7 +7,7 @@
 options = require 'mp.options'
 
 local opts = {
-	hour = '%I',
+	hour = '%H',
 	time = 'c',
 	key  = 'C'
 }

@@ -4,8 +4,11 @@ export VIDEO=mpv
 export BROWSER=google-chrome-stable
 export PAGER=less
 export PATH=$PATH:~/scripts/
+export JAVA_HOME=/usr/lib/jvm/default
 export _JAVA_AWT_WM_NONREPARENTING=1
-export QT_QPA_PLATFORMTHEME=qt5ct
+# export QT_QPA_PLATFORMTHEME=qt5ct
+export QT_QPA_PLATFORMTHEME=gtk2
+export _Z_CMD=j
 
 # colors in mans
 export LESS_TERMCAP_mb=$'\e[1;32m'
